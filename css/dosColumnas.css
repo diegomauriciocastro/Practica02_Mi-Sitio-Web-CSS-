@@ -22,6 +22,12 @@ body > article#articulo1 {
 	margin: 0 3% 0 3%;
 }
 
+body > aside#redes {
+	width: 70%;
+	float: left;
+	margin: 0 3% 0 3%;
+}
+
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -50,6 +56,6 @@ footer{
     background-color: olivedrab;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
