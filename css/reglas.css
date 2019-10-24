@@ -48,13 +48,23 @@ h1, h2 {
     letter-spacing: 0.1em;
     }
 
+/*imagenes*/
+
+#menu1{
+    width: 100px;
+    padding-left: 5px;
+}
+
 /*
  aside
 */
 
 aside {
     font-size: 0.8em;
+    color: chocolate;
+    text-decoration: wavy;
     }
+    
 
 /*
     footer

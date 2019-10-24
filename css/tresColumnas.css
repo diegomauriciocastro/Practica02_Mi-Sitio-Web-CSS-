@@ -10,16 +10,19 @@ body > nav {
 
 body > section#seccion1 {
     width: 60%;
-	float: left;
+    float: left;
+    
 
 }
 
 body > section#seccion2{
     width: 60%;
-	float: left;
+    float: left;
+    padding-left: 5px;
 }
 
 body > aside#redesSociales{
+    padding-left: 5px;
     width: 25%;
     float: left;
 }
