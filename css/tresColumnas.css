@@ -19,6 +19,7 @@ body > section#seccion2{
     width: 60%;
     float: left;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 body > section#seccion3{
@@ -37,6 +38,13 @@ body > section#seccion5{
     width: 60%;
     float: left;
     padding-left: 180px;
+}
+
+body > section#seccion6{
+    width: 60%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 400px;
 }
 
 body > aside#redesSociales{
