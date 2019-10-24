@@ -1,0 +1,30 @@
+
+/*
+    Estructura 3 columnas
+*/
+body > nav {
+	width: 15%;
+	float: left;
+	
+}
+
+body > section#seccion1 {
+    width: 55%;
+	float: left;
+
+}
+
+body > section#seccion2{
+    width: 55%;
+	float: left;
+}
+
+body > aside#redesSociales{
+    width: 30%;
+    float: left;
+}
+
+footer{
+    clear: both;
+}
+
