@@ -41,6 +41,7 @@ h1{
 h2{
     font-size: 1.5em;
     text-align: center;
+    background-color: chocolate;
 }
 
 h1, h2 {
@@ -63,9 +64,9 @@ aside {
     font-size: 0.8em;
     color: chocolate;
     text-decoration: wavy;
+    padding-top: 20px;
     }
     
-
 /*
     footer
 */
@@ -79,4 +80,3 @@ footer{
     Quicksand, Verdana, Geneva, sans-serif;
     text-align: center;
     }
-}

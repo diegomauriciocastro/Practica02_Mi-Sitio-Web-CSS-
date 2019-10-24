@@ -11,18 +11,37 @@ body > nav {
 body > section#seccion1 {
     width: 60%;
     float: left;
-    
+    padding-left: 10px;
 
 }
 
 body > section#seccion2{
     width: 60%;
     float: left;
-    padding-left: 5px;
+    padding-left: 10px;
+}
+
+body > section#seccion3{
+    width: 60%;
+    float: left;
+    padding-left: 180px;
+}
+
+body > section#seccion4{
+    width: 60%;
+    float: left;
+    padding-left: 180px;
+}
+
+body > section#seccion5{
+    width: 60%;
+    float: left;
+    padding-left: 180px;
 }
 
 body > aside#redesSociales{
-    padding-left: 5px;
+    padding-left: 1500px;
+  
     width: 25%;
     float: left;
 }
