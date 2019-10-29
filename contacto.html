@@ -36,49 +36,41 @@
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
+
     <section id="seccion1">
         <article>
+            <h1>Contacto</h1>
+            <div class="container">
+                <form action="action_page.php">
 
-            <div class="one_half last parallax_scroll"
-                style="width: 40%; position: absolute; left: 90px; padding-left: 180px; transform: translate3d(0px, 29.76px, 0px);"
-                data-stellar-ratio="1.3">
-                <div class="ppb_subtitle">Contacto</div>
-                <div class="page_header_sep left"></div><strong>HORARIOS</strong><br>
-                Lunes a Sábado: 12m a 1am<br>
-                Domingo y Festivos: 12m a 1am<br>
-                <strong>UBICACIÓN</strong><br>
-                Avenida Abraham Lincoln # 1001 esquina, Avenida Gustavo Mejía, Cuenca<br>
-                <strong>RESERVAS</strong><br>
-                (809) 472-1787<div id="reponse_msg_15719302881721382530" class="contact_form_response">
-                    <ul></ul>
-                </div>
-                <form id="contact_form_15719302881721382530" class="contact_form_wrapper" method="post"
-                    action="/wp-admin/admin-ajax.php"><input type="hidden" id="action" name="action"
-                        value="pp_contact_mailer"><label for="your_name">Name *</label>
-                    <input id="your_name" name="your_name" type="text" class="required_field" placeholder="Name *">
-                    <label for="email">Email *</label>
-                    <input id="email" name="email" type="text" class="required_field email" placeholder="Email *">
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" rows="7" cols="10" class="required_field" style="width:95.5%;"
-                        placeholder="Message *"></textarea>
-                    <br><br>
-                    <div class="contact_submit_wrapper">
-                        <input id="contact_submit_btn15719302881721382530" name="contact_submit_btn15719302881721382530"
-                            type="submit" class="solidbg" value="Send">
-                    </div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
                 </form>
             </div>
 
         </article>
-
-
     </section>
 
     <section id="seccion6">
         <article>
-
-            <header>Mapa</header>
-
+            <h1>Mapa</h1> <br><br>
             <center>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63755.77583547775!2d-79.02439958890939!3d-2.8922687106787706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cd18095fc7e881%3A0xafd08fd090de6ff7!2sCuenca!5e0!3m2!1sen!2sec!4v1571935362168!5m2!1sen!2sec"
@@ -99,8 +91,9 @@
                     width="70px"></a> <br><br>
             <a href="https://www.youtube.com/"><img src="imagenes/youtube.png" alt="youtube" width="70px"></a><br><br>
 
-            <a class="twitter-timeline" href="https://twitter.com/kfc?ref_src=twsrc%5Etfw" width="100px" >Tweets by kfc</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+            <a class="twitter-timeline" href="https://twitter.com/kfc?ref_src=twsrc%5Etfw" width="400px">Tweets by
+                kfc</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
         </aside>
