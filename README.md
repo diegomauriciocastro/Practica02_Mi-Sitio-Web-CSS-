@@ -1,4 +1,4 @@
-# Practica02_Mi-Sitio-Web-CSS
+# Practica02 Mi Sitio Web CSS
 
 Diseño de una pagina HTML relacionado con un restaurante consta de la siguiente estructura:
 
