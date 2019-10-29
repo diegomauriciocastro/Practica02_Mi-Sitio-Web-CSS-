@@ -1,3 +1,11 @@
+/*
+Mi sitio Web con CSS
+Author: Diego Castro.
+Date: 24/10/2019
+ 
+Filename: reglas.css
+*/
+
 body {
     color: rgb(91, 91, 91);
     background-color: ivory;
@@ -102,9 +110,7 @@ aside {
     padding-top: 20px;
     }
     
-/*
-    footer
-*/
+/*footer*/
 
 footer{
     clear: both;
